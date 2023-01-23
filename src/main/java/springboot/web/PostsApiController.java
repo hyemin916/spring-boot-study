@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import springboot.service.post.PostsService;
 import springboot.web.dto.PostsResponseDto;
 import springboot.web.dto.PostsSaveRequestDto;
+import springboot.web.dto.PostsUpdateRequestDto;
 
 @RequiredArgsConstructor
 @RestController
@@ -24,7 +25,7 @@ public class PostsApiController {
 
     @PutMapping("/api/v1/posts/{id}")
     public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto) {
-        return PostsService.update(id, requestDto);
+        return postsService.update(id, requestDto);
     }
 
     @GetMapping("/api/v1/posts/{id}")

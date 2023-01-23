@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63253953-2dfe-4640-a8e4-eb36d3a1cd4a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/domain/posts/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/springboot/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +86,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="springboot.web.dto" />
+      <recent name="springboot.service.post" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +96,7 @@
       <recent name="springboot.domain.posts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostsApiControllerTest">
+  <component name="RunManager" selected="JUnit.PostsApiControllerTest.Posts_수정된다">
     <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
@@ -124,22 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springboot.web.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="springboot.web.HelloResponseDtoTest" />
-      <option name="METHOD_NAME" value="롬복_기능_테스트" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
@@ -151,6 +140,22 @@
       <option name="PACKAGE_NAME" value="springboot.web" />
       <option name="MAIN_CLASS_NAME" value="springboot.web.PostsApiControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="springboot.web.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_수정된다" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
         <item itemvalue="JUnit.PostsApiControllerTest" />
         <item itemvalue="JUnit.PostsRepositoryTest" />
         <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
         <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,7 @@
       <workItem from="1673693961365" duration="38000" />
       <workItem from="1673694017846" duration="3751000" />
       <workItem from="1673779801118" duration="1538000" />
-      <workItem from="1674468874146" duration="3328000" />
+      <workItem from="1674468874146" duration="4692000" />
     </task>
     <task id="LOCAL-00001" summary="lombok + junit5">
       <created>1673696693763</created>
@@ -291,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674471664356</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="service">
+      <created>1674473227480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674473227480</updated>
+    </task>
+    <task id="LOCAL-00015" summary="service">
+      <created>1674473247549</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674473247549</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +327,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="controller" />
     <MESSAGE value="response dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="response dto" />
+    <MESSAGE value="service" />
+    <option name="LAST_COMMIT_MESSAGE" value="service" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

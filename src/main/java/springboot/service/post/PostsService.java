@@ -7,6 +7,7 @@ import springboot.domain.posts.Posts;
 import springboot.domain.posts.PostsRepository;
 import springboot.web.dto.PostsResponseDto;
 import springboot.web.dto.PostsSaveRequestDto;
+import springboot.web.dto.PostsUpdateRequestDto;
 
 @RequiredArgsConstructor
 @Service
