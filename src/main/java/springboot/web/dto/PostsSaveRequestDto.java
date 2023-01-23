@@ -1,15 +1,19 @@
 package springboot.web.dto;
 
 import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import springboot.domain.posts.Posts;
 
-public class PostSaveRequestDto {
+@Getter
+@NoArgsConstructor
+public class PostsSaveRequestDto {
     private String title;
     private String content;
     private String author;
 
     @Builder
-    public PostSaveRequestDto(final String title, final String content, final String author) {
+    public PostsSaveRequestDto(final String title, final String content, final String author) {
         this.title = title;
         this.content = content;
         this.author = author;
