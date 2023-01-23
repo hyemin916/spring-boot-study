@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63253953-2dfe-4640-a8e4-eb36d3a1cd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostSaveRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/HelloResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springboot/web/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/springboot/web/HelloResponseDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +98,7 @@
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springboot.web.*" />
+          <option name="PATTERN" value="springboot.web.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +113,7 @@
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springboot.web.*" />
+          <option name="PATTERN" value="springboot.web.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,7 +129,7 @@
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springboot.web.*" />
+          <option name="PATTERN" value="springboot.web.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,7 +145,7 @@
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springboot.web.*" />
+          <option name="PATTERN" value="springboot.web.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,6 +200,7 @@
       <workItem from="1673693961365" duration="38000" />
       <workItem from="1673694017846" duration="3751000" />
       <workItem from="1673779801118" duration="1538000" />
+      <workItem from="1674468874146" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="lombok + junit5">
       <created>1673696693763</created>
@@ -238,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674223338471</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="어플리케이션 설정">
+      <created>1674223776966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674223776966</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +264,8 @@
     <MESSAGE value="의존성 추가" />
     <MESSAGE value="Posts 클래스 생성" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="어플리케이션 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="어플리케이션 설정" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
