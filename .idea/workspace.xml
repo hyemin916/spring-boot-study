@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63253953-2dfe-4640-a8e4-eb36d3a1cd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+    <list default="true" id="63253953-2dfe-4640-a8e4-eb36d3a1cd4a" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/domain/BaseTimeEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/springboot/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <recent name="springboot.domain.posts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostsApiControllerTest.Posts_수정된다">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
@@ -164,7 +162,7 @@
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springboot.domain.posts.*" />
+          <option name="PATTERN" value="springboot.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,7 +201,7 @@
       <workItem from="1673693961365" duration="38000" />
       <workItem from="1673694017846" duration="3751000" />
       <workItem from="1673779801118" duration="1538000" />
-      <workItem from="1674468874146" duration="4692000" />
+      <workItem from="1674468874146" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="lombok + junit5">
       <created>1673696693763</created>
@@ -310,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674473247549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test">
+      <created>1674477317695</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674477317695</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,11 +329,11 @@
     <MESSAGE value="어플리케이션 설정" />
     <MESSAGE value="create claases" />
     <MESSAGE value="fill classes" />
-    <MESSAGE value="test" />
     <MESSAGE value="controller" />
     <MESSAGE value="response dto" />
     <MESSAGE value="service" />
-    <option name="LAST_COMMIT_MESSAGE" value="service" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
