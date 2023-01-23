@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63253953-2dfe-4640-a8e4-eb36d3a1cd4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostSaveRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/HelloResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/springboot/web/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/springboot/web/HelloResponseDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/service/post/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/web/dto/PostSaveRequestDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +197,7 @@
       <workItem from="1673693961365" duration="38000" />
       <workItem from="1673694017846" duration="3751000" />
       <workItem from="1673779801118" duration="1538000" />
-      <workItem from="1674468874146" duration="1154000" />
+      <workItem from="1674468874146" duration="1591000" />
     </task>
     <task id="LOCAL-00001" summary="lombok + junit5">
       <created>1673696693763</created>
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674223776966</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create claases">
+      <created>1674470266428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674470266428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +269,8 @@
     <MESSAGE value="Posts 클래스 생성" />
     <MESSAGE value="test" />
     <MESSAGE value="어플리케이션 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="어플리케이션 설정" />
+    <MESSAGE value="create claases" />
+    <option name="LAST_COMMIT_MESSAGE" value="create claases" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
